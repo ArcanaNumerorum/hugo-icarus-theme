@@ -1,0 +1,7 @@
+{{ if .Params.hide_profile | and .Params.disable_widgets }}
+<section id="main" class="full-width">
+{{ else if .Site.Params.hide_profile  }}
+<section id="main" class="no-profile-width">
+{{ else }}
+<section id="main">
+{{ end }}

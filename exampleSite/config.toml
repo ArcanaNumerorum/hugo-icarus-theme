@@ -16,6 +16,7 @@ theme = "hugo-icarus-theme"
 
 
 [params]
+	disable_profile = true
     # Tell me who you are
     author = "John Doe"
     bio = "Blogger - Programmer - Gopher"

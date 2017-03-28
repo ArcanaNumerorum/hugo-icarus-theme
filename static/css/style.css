@@ -189,6 +189,10 @@ code {
     width: 52.307692307692314%;
     margin: 0 0.769230769230769%;
   }
+  
+  #main.no-profile-width {
+    width: 74.61538461538463%;
+  }
 }
 @media screen and (min-width: 800px) and (max-width: 1199px) {
   #main {
@@ -198,6 +202,14 @@ code {
     margin: 0 0.769230769230769%;
   }
 }
+
+#main .flex-list {
+	display: flex;
+	flex-basis: auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .archive-article-header a,
 .layout-wrap-inner.tag-cloud a,
 .timeline-row .content h1 a,
@@ -633,7 +645,6 @@ code {
   border-bottom: none;
 }
 #profile {
-  display: inline;
   float: left;
   width: 21.53846153846154%;
   margin: 0 0.769230769230769%;
@@ -1330,11 +1341,11 @@ ol.toc {
 #comments a {
   color: #38b7ea;
 }
-.archives:before,
+/*.archives:before,
 .archives:after {
   content: "";
   display: table;
-}
+}*/
 .archives:after {
   clear: both;
 }

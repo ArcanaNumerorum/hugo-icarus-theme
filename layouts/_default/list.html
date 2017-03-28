@@ -4,12 +4,12 @@
     {{ partial "header" . }}
     <div class="outer">
         {{ partial "profile" . }}
-        <section id="main">
+        {{ partial "main" . }}
             <section class="archives-wrap">
                 <div class="archive-category-wrap">
                     <span class="archive-category">{{ .Title }}</span>
                 </div>
-                <div class="archives">
+                <div class="archives flex-list">
                     {{ $paginator := .Paginate .Data.Pages }}
                     {{ range $paginator.Pages }}
                         {{ .Render "summary" }} 
