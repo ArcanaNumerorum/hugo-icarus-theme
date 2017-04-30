@@ -16,7 +16,10 @@ theme = "hugo-icarus-theme"
 
 
 [params]
-	disable_profile = true
+	article_width = "49%"
+	hide_profile = true
+	hide_word_count = true
+	hide_reading_time = true
     # Tell me who you are
     author = "John Doe"
     bio = "Blogger - Programmer - Gopher"
